@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary-turquoise: #14b8a6; /* Teal-500 */
+    --color-primary-deep-blue: #0f76a8; /* Sky-700 */
+    --color-background-soft-white: #f8fafc; /* Slate-50 */
+    --color-accent-coral: #f97316; /* Orange-500 */
+    --color-accent-sandy-beige: #fef3c7; /* Amber-100 */
+  }
+
+  body {
+    @apply font-lato bg-background-soft-white text-gray-700;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-poppins font-bold text-primary-deep-blue;
+  }
+}
